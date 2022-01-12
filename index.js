@@ -8,3 +8,13 @@ function writeCards(names, exclamation) {
     return newNames;
 }
 writeCards(names);
+
+function countDown(integer) {
+    let counting = 10;
+    while (counting > -1) {
+        console.log(counting--);
+        debugger;
+    }
+    
+}
+countDown(10);
